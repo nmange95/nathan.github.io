@@ -1,36 +1,69 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(/nmange95.github.io/images/maybeBG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(78, 158, 132);
 }
 
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  height: 3%;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px; /* Adjust the gap as needed */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  color: rgb(89, 211, 170);
 }
 
 .project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .project img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .project h2 {
-    margin-top: 10px;
-    font-weight: bold;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
