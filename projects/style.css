@@ -23,9 +23,11 @@ h1 {
 header {
   background-color: #333;
   color: white;
+  display: flex;
   text-align: center;
+  align-items: center;
   padding: 10px 0;
-  height: 3%;
+  height: 2%;
 }
 
 .container {
