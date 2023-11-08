@@ -16,6 +16,7 @@ header {
   padding: 15px;
   color: rgb(255, 255, 255);
   background-image: url(images/header.jpg);
+  opacity: 0.55;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,7 +79,6 @@ body {
     font-size: 125px;
   }
 }
-
 
 footer {
   font-family: Arial, sans-serif;
