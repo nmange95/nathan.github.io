@@ -52,7 +52,7 @@ header {
 
 .Image {
   grid-area: Image;
-  background-image: url(../aboutBG-transformed.jpeg);
+  background-image: url(../images/aboutBG-transformed.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
