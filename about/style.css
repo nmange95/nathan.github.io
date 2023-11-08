@@ -6,6 +6,7 @@ html {
 }
 
 header {
+  font-family: Arial, sans-serif;
   background: #706e57;
   height: 3%;
   border-bottom: 2px solid white;
@@ -71,6 +72,8 @@ footer {
   background: #626049;
   height: 2%;
   border-top: 3px solid white;
+  display: flex;
+  text-align: end;
 }
 
 nav ul {

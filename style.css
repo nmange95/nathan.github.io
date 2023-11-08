@@ -9,6 +9,7 @@ body {
 }
 
 header {
+  font-family: Arial, sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,4 +77,14 @@ body {
     order: 0;
     font-size: 125px;
   }
+}
+
+
+footer {
+  font-family: Arial, sans-serif;
+  color: white;
+  background: #333;
+  height: 1%;
+  display: flex;
+  text-align: end;
 }

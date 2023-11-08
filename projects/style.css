@@ -6,7 +6,6 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background: url(/nmange95.github.io/images/maybeBG.jpg);
@@ -21,6 +20,7 @@ h1 {
 }
 
 header {
+  font-family: Arial, sans-serif;
   background-color: #333;
   color: white;
   display: flex;
@@ -35,6 +35,7 @@ header {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   color: rgb(89, 211, 170);
+  height: 97%;
 }
 
 .project {
@@ -68,4 +69,13 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
+}
+
+footer {
+  font-family: Arial, sans-serif;
+  color: white;
+  background: #333;
+  height: 1%;
+  display: flex;
+  text-align: end;
 }
